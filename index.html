@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armazenamento local</title>
+    <link rel="shortcut icon" href="./assets/icone.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contatos</h1>
+        <form>
+            <input type="text" name="nome" placeholder="Nome Completo" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="number" name="telefone" placeholder="telefone" required>
+            <input type="text" name="endereco" placeholder="endereço" required>
+            <input type="number" name="cpf" placeholder="CPF" required>
+            <input type="number" name="rg" placeholder="RG" required>
+            <button type="submit">Registar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os contatos serão adicionados aqui dinamicamente -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <h2>by Rhay</h2>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
